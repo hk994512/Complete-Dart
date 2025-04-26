@@ -1,0 +1,9 @@
+void main() {
+ String pizza= 'I love Pizza';
+  final containPizza = pizza.contains('Pizza'); // Finding or Searching use contains() function
+  print(containPizza);
+  
+  // Replacing Pizza with Pasta using replaceAll() function
+   pizza = pizza.replaceAll('Pizza','Pasta');
+  print(pizza);
+}
