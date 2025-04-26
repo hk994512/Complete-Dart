@@ -1,0 +1,32 @@
+void main() {
+  // Variable declaration and initialization
+  int age = 20;
+
+  // Converting integer to String
+  String ageString = age.toString();
+  print(ageString); // Output: '20'
+  
+  // Variable declaration and initialization
+  int pageIndex = 2;
+
+  // Converting int to double
+  double stringIndex = pageIndex.toDouble();
+  print(stringIndex); // Output: 2.0
+  
+  // Fixing double value to 1 decimal place and converting to String
+  String value = 1.85.toStringAsFixed(1);
+  print(value); // Output: '1.9'
+  
+  // Applying round method to round the value
+  double val = 2.82;
+  int roundedValue = val.round(); // round() returns int directly
+  print(roundedValue); // Output: 3
+  
+  // Applying floor method (rounds down)
+  int floorValue = val.floor();
+  print(floorValue); // Output: 2
+  
+  // Applying ceil method (rounds up)
+  int ceilValue = val.ceil();
+  print(ceilValue); // Output: 3
+}
