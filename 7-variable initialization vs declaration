@@ -1,0 +1,14 @@
+void main() {
+  // Variable declaration and initialization
+  String title = 'Dart is Programming language'.toUpperCase(); 
+  // Here, 'title' is both declared (type + name) and initialized (assigned a value)
+
+  print(title); // Output: 'DART IS PROGRAMMING LANGUAGE'
+  
+  // Variable re-initialization (changing the value)
+  title = title.toLowerCase(); 
+  // Here, 'title' is already declared before; we are just assigning a new value (no new declaration)
+
+  print(title); // Output: 'dart is programming language'
+}
+7-
