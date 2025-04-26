@@ -1,0 +1,20 @@
+void main() {
+  print(5 + 2);
+  print(5 - 2);
+  print(5 * 2);
+  print(5 / 2);
+  print(5 ~/ 2); // ~ for integer not for decimals
+  print(5 % 2);
+
+  int x = 2;
+  // Similarly we can write it as
+  x += 2;
+  print(x);
+  
+  // Operator presedence 
+  print('Operator presedence ${2+3*4/2}'); 
+  
+  // Changing order of presedence using change operation
+  print('Second presedence ${(10-2)*5~/2}');
+  
+}
